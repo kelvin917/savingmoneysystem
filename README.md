@@ -1,22 +1,36 @@
-# 个人做账 & 储蓄系统
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-一个基于终端的个人财务管理工具，支持记账、余额查看和储蓄目标追踪。
+## Getting Started
 
-## 功能
-
-- **财务概览**：一眼看清总收入、总支出、当前余额
-- **添加收入/支出**：按类别记录每笔交易，支持备注和自定义日期
-- **交易记录**：按类型筛选查看，支持删除
-- **分类统计**：各类别收支占比汇总
-- **储蓄目标**：设定目标金额、截止日期，追踪进度条
-
-## 使用方法
+First, run the development server:
 
 ```bash
-pip install rich
-python main.py
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-## 数据存储
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-所有数据保存在本地 `finance.db` (SQLite)，无需网络连接。
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
